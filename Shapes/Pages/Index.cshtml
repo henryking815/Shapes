@@ -42,7 +42,7 @@
             // switch classes
             e.target.classList.remove('square');
             e.target.classList.add('circle');
-            // append to other row
+            // prepend to other row
             $('#circleRow').prepend(e.target.outerHTML);
             // remove from current row
             e.target.remove();
