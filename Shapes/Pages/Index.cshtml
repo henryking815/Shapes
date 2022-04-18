@@ -8,19 +8,21 @@
     <h1 class="display-4">Henry King</h1>
     <h2 class="display-4">04-13-2022</h2>
     @* table markup *@
-    <table class="margin">
-        <tr id="circleRow">
-            <td class="circle" id="td1"><div>Red</div></td>
-            <td class="circle" id="td2"><div>Green</div></td>
-            <td class="circle" id="td3"><div>Blue</div></td>
-            <td class="circle" id="td4"><div>Orange</div></td>
-            <td class="circle" id="td5"><div>Yellow</div></td>
-        </tr>
-    </table>
+    <div class="wrapper">
+        <table class="margin">
+            <tr id="circleRow">
+                <td class="circle" id="td1"><div>Red</div></td>
+                <td class="circle" id="td2"><div>Green</div></td>
+                <td class="circle" id="td3"><div>Blue</div></td>
+                <td class="circle" id="td4"><div>Orange</div></td>
+                <td class="circle" id="td5"><div>Yellow</div></td>
+            </tr>
+        </table>
 
-    <table class="margin">
-        <tr id="squareRow"></tr>
-    </table>
+        <table class="margin">
+            <tr id="squareRow"></tr>
+        </table>
+    </div>
 
     <p>
         Made with: HTML, JavaScript - jquery v3.3.1 & CSS - Bootstrap v3.4.1
@@ -100,12 +102,12 @@
         background-color: yellow;
     }
 
-    @* setting opacity when hovering *@
-    tr:hover td {
+    @* setting opacity when hovering *@ 
+    .wrapper:hover td {
         opacity: .5;
     }
 
-    tr td:hover {
+    .wrapper td:hover {
         opacity: 1;
     }
 
