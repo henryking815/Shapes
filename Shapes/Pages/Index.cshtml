@@ -53,22 +53,20 @@
 </script>
 
 <style>
-    @* styles for circle and square classes *@
+    @* styles for circle, square & margin classes *@
     .circle {
         width: 200px;
         height: 200px;
         border-radius: 100px;
         margin: 7px;
         display: inline-block;
-        cursor: pointer;
     }
 
     .square {
         width: 200px;
         height: 200px;
         margin: 7px;
-        display: inline-block;
-        cursor: pointer;
+        display: inline-block;       
     }
 
     .margin {
@@ -109,14 +107,11 @@
 
     .wrapper td:hover {
         opacity: 1;
+        cursor: pointer;
     }
 
-    @* hiding font color text *@
-    #circleRow > td > div {
-        visibility: hidden;
-    }
-
-    #squareRow > td > div {
+    @* hiding font color text *@ 
+    #circleRow #squareRow > td > div {
         visibility: hidden;
     }
 
