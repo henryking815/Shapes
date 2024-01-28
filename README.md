@@ -1,0 +1,3 @@
+"# Shapes"
+About:
+5 circles in a row, in the following order: Red, Green, Blue, Orange and Yellow.  When they are hovered, text appears under the icon that states what the color is and all other  icons in the row should fade out to a 50% opacity.  Once the icon is clicked it appears in a row below the original row and becomes a square. When it  is hovered, it has the same effect as the circles, state the color above the icon and fade out the  other icons in the row. When a square is clicked, the square will become a circle and be placed first in  the circle row.  Page is responsive, has a black background except when viewing on mobile, background  is white.
